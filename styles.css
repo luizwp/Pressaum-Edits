@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+#contact {
+    background-color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.contact-icon {
+    margin: 0 20px;
+    color: #007bff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.contact-icon i {
+    margin-right: 10px;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#faq {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
